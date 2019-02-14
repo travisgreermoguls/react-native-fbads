@@ -7,4 +7,5 @@ export { default as MediaView } from './native-ads/MediaViewManager';
 export { default as AdIconView } from './native-ads/AdIconViewManager';
 export { default as TriggerableView } from './native-ads/TriggerableView';
 export { default as AdChoicesView } from './native-ads/AdChoicesManager';
+export { default as RewardedVideoAdManager } from './RewardedVideoAdManager';
 export * from './native-ads/nativeAd';

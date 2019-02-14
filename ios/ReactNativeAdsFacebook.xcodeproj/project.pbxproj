@@ -18,6 +18,7 @@
 		D2AFD380211B15F300580DF0 /* EXNativeAdEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFD376211B15F300580DF0 /* EXNativeAdEmitter.m */; };
 		D2AFD6642122392E00580DF0 /* AdChoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFD6632122392E00580DF0 /* AdChoiceManager.m */; };
 		D2AFD6742122B89100580DF0 /* AdChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFD6722122B89100580DF0 /* AdChoiceView.m */; };
+		D624B2572215F27300DC8221 /* EXRewardedVideoAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D624B2562215F27200DC8221 /* EXRewardedVideoAdManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		D2AFD6632122392E00580DF0 /* AdChoiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdChoiceManager.m; sourceTree = "<group>"; };
 		D2AFD6722122B89100580DF0 /* AdChoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdChoiceView.m; sourceTree = "<group>"; };
 		D2AFD6732122B89100580DF0 /* AdChoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdChoiceView.h; sourceTree = "<group>"; };
+		D624B2552215F27200DC8221 /* EXRewardedVideoAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXRewardedVideoAdManager.h; sourceTree = "<group>"; };
+		D624B2562215F27200DC8221 /* EXRewardedVideoAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXRewardedVideoAdManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				D2AFD368211B15F300580DF0 /* EXNativeAdView.m */,
 				D2AFD36B211B15F300580DF0 /* EXNativeMediaViewManager.h */,
 				D2AFD370211B15F300580DF0 /* EXNativeMediaViewManager.m */,
+				D624B2552215F27200DC8221 /* EXRewardedVideoAdManager.h */,
+				D624B2562215F27200DC8221 /* EXRewardedVideoAdManager.m */,
 				D2AFD6602121FD8200580DF0 /* EXUnversioned.h */,
 				D2AFD6622122391200580DF0 /* AdChoiceManager.h */,
 				D2AFD6632122392E00580DF0 /* AdChoiceManager.m */,
@@ -179,6 +184,7 @@
 				D2AFD379211B15F300580DF0 /* EXNativeAdView.m in Sources */,
 				D2AFD37D211B15F300580DF0 /* EXAdIconViewManager.m in Sources */,
 				D2AFD37F211B15F300580DF0 /* EXInterstitialAdManager.m in Sources */,
+				D624B2572215F27300DC8221 /* EXRewardedVideoAdManager.m in Sources */,
 				D2AFD6742122B89100580DF0 /* AdChoiceView.m in Sources */,
 				D2AFD6642122392E00580DF0 /* AdChoiceManager.m in Sources */,
 				D2AFD37A211B15F300580DF0 /* EXBannerViewManager.m in Sources */,
