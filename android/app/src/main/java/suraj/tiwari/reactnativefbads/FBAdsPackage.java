@@ -27,7 +27,8 @@ public class FBAdsPackage implements ReactPackage {
            new NativeAdManager(reactContext),
            new AdSettingsManager(reactContext),
            new InterstitialAdManager(reactContext),
-           new NativeAdChoicesViewManager(reactContext)
+           new NativeAdChoicesViewManager(reactContext),
+           new RewardedVideoAdManager(reactContext)
         );
     }
 
