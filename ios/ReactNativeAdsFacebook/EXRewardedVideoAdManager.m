@@ -84,8 +84,6 @@ RCT_EXPORT_METHOD(
     });
 }
 
-#pragma mark - FBInterstitialAdDelegate
-
 - (void)rewardedVideoAd:(FBRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error
 {
     NSLog(@"Rewarded video ad failed to load - Error: %@", error);
@@ -106,7 +104,7 @@ RCT_EXPORT_METHOD(
     NSLog(@"Video ad clicked");
 }
 
-- (void)rewardedVideoAdComplete:(FBRewardedVideoAd *)rewardedVideoAd
+- (void)rewardedVideoAdVideoComplete:(FBRewardedVideoAd *)rewardedVideoAd
 {
     NSLog(@"Rewarded Video ad video complete - init reward");
     
