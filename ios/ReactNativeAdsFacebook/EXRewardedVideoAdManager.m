@@ -62,7 +62,7 @@ RCT_EXPORT_METHOD(
 
 RCT_EXPORT_METHOD(
   showAd:
-  resolver:(RCTPromiseResolveBlock)resolve 
+  (RCTPromiseResolveBlock)resolve 
   rejecter:(RCTPromiseRejectBlock)reject
 ) 
 {
