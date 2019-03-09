@@ -82,6 +82,10 @@ RCT_EXPORT_METHOD(
     dispatch_async(dispatch_get_main_queue(), ^{
         [_rewardedVideoAd showAdFromRootViewController:RCTPresentedViewController()];
     });
+
+    // very ugly hack - short-term fix for inability to dismiss video view when complete.
+    [NSThread sleepForTimeInterval:30.0f];
+    [RCTPresentedViewController() dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)rewardedVideoAd:(FBRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error
